@@ -1,0 +1,42 @@
+## Ignorar carpetas de compilación y archivos generados
+bin/
+obj/
+
+## Archivos de configuración de IDE
+.vs/
+.idea/
+.vscode/
+
+## Archivos de configuración del sistema operativo
+Thumbs.db
+.DS_Store
+
+## Archivos de dependencias del paquete NuGet
+packages/
+
+## Archivos de configuración de dependencias globales
+.nuget/
+
+## Archivos de usuario específicos de la solución
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+## Archivos de historial de compilación
+*.log
+
+## Archivos de configuración de prueba
+testresults/
+
+## Archivos de configuración de contenedor Docker
+docker-compose.override.yml
+
+## Archivo de configuración del entorno (si usas .env)
+.env
+
+## Archivos de configuración de distribución
+wwwroot/
+
+## Configuración de la carpeta de herramientas locales
+tool-versions.json
